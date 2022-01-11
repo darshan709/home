@@ -1,0 +1,189 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	height: 20vh;
+	text-align: center;
+	margin: 0 10%;
+}
+
+.top-nav {
+	padding: 0 10%;
+	padding-top: 0.5rem;
+	height: 5vh;
+	background: #7b8a8d;
+	color: #fff;
+}
+
+.top-nav .social {
+	float: left;
+}
+
+.top-nav .social i {
+	font-size: 18px;
+	margin: 0.3rem;
+}
+
+.top-nav .listing {
+	float: right;
+}
+
+.top-nav .listing ul {
+	display: flex;
+}
+
+.top-nav .listing ul li {
+	margin: 0 1.2rem;
+}
+
+header .center-nav {
+	height: 10vh;
+	padding-top: 0.5rem;
+	display: flex;
+}
+
+header .center-nav .logo {
+	float: left;
+	text-transform: uppercase;
+}
+
+header .center-nav .logo-action {
+	position: absolute;
+	right: 10%;
+	display: flex;
+}
+
+header .center-nav .logo-action .logo-action-element {
+	display: flex;
+	margin: 1rem;
+}
+
+header .center-nav .logo-action .logo-action-element .icon {
+	margin-right: 10px;
+	display: flex;
+	color: #7b8a8d;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px;
+}
+
+header .center-nav .logo-action .logo-action-element h3 {
+	color: #f1552e;
+}
+
+header .center-nav .logo-action .logo-action-element div {
+	text-align: left;
+}
+
+header .bottom-nav {
+	height: 5vh;
+	padding-top: 1rem;
+	display: flex;
+	border-top: 1px solid #1f1f1f;
+}
+
+header .bottom-nav .menu .menu-list {
+	list-style: none;
+	display: flex;
+	text-transform: uppercase;
+}
+
+header .bottom-nav li {
+	margin: 0 1rem;
+}
+
+header .bottom-nav li:nth-child(1) {
+	border-bottom: 2px solid #f1552e;
+}
+
+header .bottom-nav .menu-icons {
+	position: absolute;
+	right: 12%;
+}
+
+header .bottom-nav .menu-icons i {
+	font-size: 1.2rem;
+	margin: 0.3rem;
+}
+
+main {
+	height: 55vh;
+	background: url("bg.jpg");
+	background-size: cover;
+	background-position: 30% 70%;
+	overflow-y: hidden;
+}
+
+main .hero-content {
+	margin: 3%;
+	padding: 3%;
+	width: 40%;
+	background: rgba(255,255,255,0.2);
+	backdrop-filter: blur(6px);
+	border-radius: 1rem;
+}
+
+main .hero-content h1 {
+	font-weight: bolder;
+	font-size: 2.3rem;
+}
+
+main .hero-content p {
+	margin: 1rem 0;
+}
+
+main .hero-content button {
+	color: #f1552e;
+	font-weight: 600;
+	border: 2px solid #f1552e;
+	background: transparent;
+	padding: 1rem 1.5rem;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+
+section {
+	height: 25vh;
+}
+
+.wrapper {
+	display: flex;
+	margin: -3rem 10%;
+	justify-content: space-around;
+}
+
+.wrapper-child {
+	padding-left: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.wrapper-circle {
+	width: 100px;
+	height: 100px;
+	background: #f1552e;
+	color: #fff;
+	font-size: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.wrapper-child h3 {
+	margin: 1rem 0;
+}
+
+.wrapper-child ul{
+	color: #f1552e;
+}
